@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    width: 100%;
+    height: 65px;
+    background-color: gray;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: auto;
+    
+}
+
+.header-content a{
+    margin-top: 10px;
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-content img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-top: 3px;
+}
+
+
+.title{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 35px;
+}
+
+
+/* About Section */
+.about{
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-left{
+    max-width: 45%;
+    word-spacing: 0.1rem;
+    line-height: 1.5rem
+    
+    
+}
+
+.about-right-info{
+    max-width: 45%;
+    word-spacing: 0.1rem;
+    line-height: 1.5rem
+    
+}
+
+.about-right-info h1{
+    margin-bottom: 10px;
+font-size: 25px;
+}
+.about .about-left h1{
+margin-bottom: 10px;
+font-size: 25px;
+}
+
+.about .about-left p{
+padding: 20px;
+color: rgb(54, 53, 53);
+}
+
+#span{
+    position: absolute;
+    width: 160px;
+    height: 4px;
+    background-color: orange;
+    
+}
+
+/*About Section*/
+.about{
+    margin-bottom: 13.5%;
+}
+.about-right{
+    position: absolute;
+    right: 15%;
+    top: 40%;
+}
+
+
+/* Information Section*/
+.information{
+    width: 100%;
+}
+.about-left h1{
+    padding-bottom: 4px
+}
+
+.text{
+    padding: 15px;
+}
+
+.info-list{
+    list-style: none;
+    padding-top: 20px;
+    color: #000;
+    font-size: 17px;
+}
+
+#edit{
+    color: #000;
+}
+
+/*Projects section*/
+.projects{
+    margin-left: 5%;
+}
+
+.projects > .about-left h1{
+    margin: 10px 0;
+}
+
+.projects-list{
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.projects-list li{
+    list-style: none;
+    display: flex;
+}
+
+.projects-list li a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#img-projects-html{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin: -20px 0 0 20px;
+}
+
+#img-projects-js{
+    width: 150px;
+    height: 80px;
+    border-radius: 100%;
+    margin: -20px 0 0 5px;
+}
+.list-one{
+    padding-bottom: 40px;
+}
